@@ -1,0 +1,38 @@
+body {
+    background: url(https://cdn.pixabay.com/photo/2020/06/19/21/47/watermelon-5318965_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 60px auto;
+    padding: 30px;
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    color: silver;
+}
+
+.buisness-card {
+    float: left;
+}
+
+.username, .email, .download {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.username span {
+    border-bottom: 2px solid red;
+    padding: 4px;
+}
+
+.email {
+    font-size: 15px;
+}
+
+.download a {
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
